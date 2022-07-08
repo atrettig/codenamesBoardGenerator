@@ -1,0 +1,91 @@
+#game-board {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: black 2px solid;    
+
+  
+}
+
+.letter-box {
+  border: 2px solid gray;
+  border-radius: 3px;
+  margin: 2px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  height: 5rem;
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.filled-box {
+  border: 2px solid black;
+}
+
+.letter-row {
+  display: flex;
+}
+
+
+
+#board{
+    /* border: black 2px solid; */
+    display: inline-block;
+    /* align-items: center; */
+    background-color: #710F44;
+    border-radius: 1%;
+    padding: 2px;
+}
+.boardContainer{
+    text-align: center;
+    margin-top: 4%;
+}
+
+
+/* 6D1347 */
+
+/* F0872C */
+
+body {
+	background: linear-gradient(-45deg, #710F44, #8B1654, #B02859, #D5594E, #EF823B, #F49F2B, #FDE535 );
+	background-size: 400% 400%;
+	animation: gradient 50s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+
+#logoImg{
+    width: 50%;
+
+}
+
+#logoDiv{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
